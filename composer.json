@@ -12,11 +12,10 @@
     "require-dev": {
         "fizzday/fizzhelper": "dev-master"
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "fizz",
-            "email": "fizz_long@wochacha.com"
+    "autoload": {
+        "psr-4": {
+            "Fizzday\\FizzMatch\\": "src/"
         }
-    ]
+    },
+    "license": "MIT"
 }
