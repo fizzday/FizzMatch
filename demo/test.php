@@ -1,4 +1,5 @@
 <?php
+// after command  'composer install'
 
 require __DIR__."/../vendor/autoload.php";
 
