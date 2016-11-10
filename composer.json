@@ -1,0 +1,22 @@
+{
+    "name": "fizzday/fizzmatch",
+    "description": "a fund panel match lib",
+    "type": "library",
+    "authors": [
+        {
+            "name": "fizz",
+            "email": "864759073@qq.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "fizzday/fizzhelper": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fizz",
+            "email": "fizz_long@wochacha.com"
+        }
+    ]
+}
