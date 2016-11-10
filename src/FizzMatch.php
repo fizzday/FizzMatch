@@ -94,6 +94,7 @@ class FizzMatch
 
         if (empty($payList) || empty($adminList)) return false;
 
+        // 执行匹配, 并放入 匹配结果变量
         static::$matchList = matchCash($payList, $getList, $adminList);
 
         return static::$matchList;
