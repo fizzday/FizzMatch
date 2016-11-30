@@ -34,13 +34,13 @@ $result = FizzMatch::setPayList($payList)->setGetList($getList)->setAdminList($a
 ```
 match result (匹配结果)
 ```
- * $result = array(
- * array("payid" => 11,"getid" => 22,"money" => 200,"payParam" => 1,"getParam" => 2,"payuid" => 1,"getuid" => 5),
- * array("payid" => 12,"getid" => 22,"money" => 300,"payParam" => 2,"getParam" => 2,"payuid" => 2,"getuid" => 5),
- * array("payid" => 12,"getid" => 23,"money" => 100,"payParam" => 2,"getParam" => 3,"payuid" => 2,"getuid" => 6),
- * array("payid" => 13,"getid" => 23,"money" => 100,"payParam" => 3,"getParam" => 3,"payuid" => 3,"getuid" => 6),
- * array("payid" => 13,"getid" => 0,"money" => 100,"payParam" => 3,"getParam" => 93,"payuid" => 3,"getuid" => 21)
- * )
+$result = array(
+    array("payid" => 11,"getid" => 22,"money" => 200,"payParam" => 1,"getParam" => 2,"payuid" => 1,"getuid" => 5),
+    array("payid" => 12,"getid" => 22,"money" => 300,"payParam" => 2,"getParam" => 2,"payuid" => 2,"getuid" => 5),
+    array("payid" => 12,"getid" => 23,"money" => 100,"payParam" => 2,"getParam" => 3,"payuid" => 2,"getuid" => 6),
+    array("payid" => 13,"getid" => 23,"money" => 100,"payParam" => 3,"getParam" => 3,"payuid" => 3,"getuid" => 6),
+    array("payid" => 13,"getid" => 0,"money" => 100,"payParam" => 3,"getParam" => 93,"payuid" => 3,"getuid" => 21)
+)
 ```
 
 ## param comment (参数说明)
